@@ -1,5 +1,5 @@
 from unittest import TestCase
-from double_generator import kartenlistenersteller, uberpruefe, uberpruefe_2
+from Logic.double_generator import uberpruefe, uberpruefe_2
 
 class Doublekartenchecker(TestCase):
     def test_jedes_icon_nur_einmal(self):

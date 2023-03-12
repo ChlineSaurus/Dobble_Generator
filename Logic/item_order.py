@@ -1,9 +1,8 @@
-from double_generator import kartenlistenersteller, uberpruefe, uberpruefe_2
+from Logic.double_generator import kartenlistenersteller, uberpruefe, uberpruefe_2
 import os, shutil
 
-
 def anordner(lischte):
-    #s'grööste Element us de Liste finde (göngt au eifacher)
+    #s'grööste Element us de Liste finde
     maximum = 1
     for x in lischte:
         maximum = max(maximum, max(x[1:]))

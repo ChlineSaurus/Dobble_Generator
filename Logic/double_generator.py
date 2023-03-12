@@ -77,8 +77,6 @@ def uberpruefe_2(liste):
                 print(f"Es gibt {len(matching_number)} Icons auf diesen Karten doppelt")
                 raise Warning("Die zweiti Überprüefig het fehlgschlage")
 
-
-
 if __name__ == "__main__":
     grossi = 31 #muess e Primzahl si
     liste = kartenlistenersteller(grossi)
