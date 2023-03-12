@@ -3,7 +3,7 @@ The game Dobble is a card game with very simple rules. There are cards with seve
 
 ![Original](https://user-images.githubusercontent.com/95419378/224535186-27ba4a4a-d68e-46dd-b755-8d72c79ef743.jpg)
 
-As this game is very simple in the original version with only 8 symbols on each card, I wanted to make a slightly more difficult version of the game with 12 symbols per card, and later even at 14. Since the game uses a mathematical principle so that each card has exactly one symbol in common with every other card, I decided to write a python script to assemble the cards. It also exports the symbols directly into the PowerPoint format that is needed to print the game on meinspiel.de.
+As this game is very easy in the original version with only 8 symbols on each card, I wanted to make a slightly more difficult version of the game with 12 symbols per card, and later even with 14. Since the game uses a mathematical principle so that each card has exactly one symbol in common with every other card, I decided to write a python script to assemble the cards. The code also exports the symbols directly into the PowerPoint format that is needed to print the game on meinspiel.de. Thanks to my code, you no longer have to worry about the logic behind the cards and can focus on the design.
 
 The code is not perfect, as I wrote it shortly after my first semester in computer science, but I am very satisfied with my game, which I was able to create thanks to this code.
 
